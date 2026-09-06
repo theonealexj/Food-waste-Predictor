@@ -1,0 +1,64 @@
+{
+    "size_before": [
+        1782,
+        11
+    ],
+    "size_after": [
+        1618,
+        11
+    ],
+    "features": [
+        "Type of Food",
+        "Number of Guests",
+        "Event Type",
+        "Quantity of Food",
+        "Storage Conditions",
+        "Purchase History",
+        "Seasonality",
+        "Preparation Method",
+        "Geographical Location",
+        "Pricing"
+    ],
+    "models_tested": [
+        "Linear Regression",
+        "Decision Tree",
+        "Random Forest",
+        "Gradient Boosting",
+        "XGBoost"
+    ],
+    "cv_results": {
+        "Linear Regression": 5.06841585044757,
+        "Decision Tree": 4.081154692481891,
+        "Random Forest": 3.290600436480588,
+        "Gradient Boosting": 3.275404673705597,
+        "XGBoost": 3.4349448680877686
+    },
+    "best_model": "Gradient Boosting",
+    "test_results": {
+        "MAE": 2.2341351380376255,
+        "RMSE": 2.9111699121183787,
+        "R2": 0.9213464779536417
+    },
+    "top_features": [
+        [
+            "Pricing_High",
+            0.6313120892616619
+        ],
+        [
+            "Number of Guests",
+            0.19981875894459905
+        ],
+        [
+            "Quantity of Food",
+            0.1032198172056821
+        ],
+        [
+            "Preparation Method_Sit-down Dinner",
+            0.028151945303283493
+        ],
+        [
+            "Pricing_Low",
+            0.009957359350936973
+        ]
+    ]
+}
